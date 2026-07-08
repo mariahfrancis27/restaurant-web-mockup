@@ -1,0 +1,502 @@
+order_id,order_date,order_time,item_id,menu_item,category,size,unit_price,quantity,line_total,order_channel,payment_method
+R1-00001,2026-05-25,18:09:21,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Takeout,Credit Card
+R1-00001,2026-05-25,18:09:21,302,Medium Fries,Fries,Medium,2.49,1,2.49,Takeout,Credit Card
+R1-00001,2026-05-25,18:09:21,404,Bottled Water,Drink,,1.79,1,1.79,Takeout,Credit Card
+R1-00002,2026-05-26,09:34:49,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Debit Card
+R1-00002,2026-05-26,09:34:49,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Debit Card
+R1-00002,2026-05-26,09:34:49,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Debit Card
+R1-00003,2026-05-26,11:06:13,202,Cheeseburger,Burger,,3.99,3,11.97,Drive-Thru,Mobile Pay
+R1-00003,2026-05-26,11:06:13,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Mobile Pay
+R1-00003,2026-05-26,11:06:13,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Mobile Pay
+R1-00004,2026-05-26,11:13:48,201,Hamburger,Burger,,3.49,1,3.49,Dine-In,Credit Card
+R1-00004,2026-05-26,11:13:48,301,Small Fries,Fries,Small,1.99,1,1.99,Dine-In,Credit Card
+R1-00004,2026-05-26,11:13:48,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Dine-In,Credit Card
+R1-00005,2026-05-26,12:07:42,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Mobile Pay
+R1-00005,2026-05-26,12:07:42,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Dine-In,Mobile Pay
+R1-00006,2026-05-26,12:17:09,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Mobile Pay
+R1-00006,2026-05-26,12:17:09,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Dine-In,Mobile Pay
+R1-00006,2026-05-26,12:17:09,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Mobile Pay
+R1-00007,2026-05-26,12:31:58,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Drive-Thru,Debit Card
+R1-00007,2026-05-26,12:31:58,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Debit Card
+R1-00008,2026-05-26,12:46:43,203,Double Cheeseburger,Burger,,5.49,1,5.49,Takeout,Credit Card
+R1-00008,2026-05-26,12:46:43,303,Large Fries,Fries,Large,2.99,1,2.99,Takeout,Credit Card
+R1-00009,2026-05-26,13:21:57,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Credit Card
+R1-00009,2026-05-26,13:21:57,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Drive-Thru,Credit Card
+R1-00009,2026-05-26,13:21:57,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Credit Card
+R1-00010,2026-05-26,18:09:52,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Debit Card
+R1-00010,2026-05-26,18:09:52,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Drive-Thru,Debit Card
+R1-00010,2026-05-26,18:09:52,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Debit Card
+R1-00010,2026-05-26,18:09:52,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Debit Card
+R1-00011,2026-05-26,21:26:47,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Cash
+R1-00011,2026-05-26,21:26:47,301,Small Fries,Fries,Small,1.99,1,1.99,Drive-Thru,Cash
+R1-00012,2026-05-27,13:03:33,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Drive-Thru,Credit Card
+R1-00012,2026-05-27,13:03:33,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00013,2026-05-27,16:30:51,104,Crispy Chicken Sandwich,Chicken,,5.99,2,11.98,Takeout,Credit Card
+R1-00013,2026-05-27,16:30:51,301,Small Fries,Fries,Small,1.99,1,1.99,Takeout,Credit Card
+R1-00013,2026-05-27,16:30:51,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Takeout,Credit Card
+R1-00014,2026-05-27,17:05:05,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Delivery,Credit Card
+R1-00014,2026-05-27,17:05:05,404,Bottled Water,Drink,,1.79,3,5.37,Delivery,Credit Card
+R1-00014,2026-05-27,17:05:05,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Delivery,Credit Card
+R1-00015,2026-05-27,19:13:30,202,Cheeseburger,Burger,,3.99,1,3.99,Takeout,Credit Card
+R1-00016,2026-05-28,09:12:22,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Cash
+R1-00017,2026-05-28,09:26:45,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Delivery,Mobile Pay
+R1-00017,2026-05-28,09:26:45,302,Medium Fries,Fries,Medium,2.49,3,7.47,Delivery,Mobile Pay
+R1-00017,2026-05-28,09:26:45,404,Bottled Water,Drink,,1.79,2,3.58,Delivery,Mobile Pay
+R1-00018,2026-05-28,11:31:34,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Mobile Pay
+R1-00018,2026-05-28,11:31:34,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Mobile Pay
+R1-00018,2026-05-28,11:31:34,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Drive-Thru,Mobile Pay
+R1-00019,2026-05-28,11:42:01,202,Cheeseburger,Burger,,3.99,3,11.97,Dine-In,Cash
+R1-00019,2026-05-28,11:42:01,104,Crispy Chicken Sandwich,Chicken,,5.99,2,11.98,Dine-In,Cash
+R1-00019,2026-05-28,11:42:01,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Dine-In,Cash
+R1-00020,2026-05-28,12:37:19,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Dine-In,Mobile Pay
+R1-00021,2026-05-28,12:53:13,202,Cheeseburger,Burger,,3.99,1,3.99,Dine-In,Mobile Pay
+R1-00021,2026-05-28,12:53:13,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Mobile Pay
+R1-00021,2026-05-28,12:53:13,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Mobile Pay
+R1-00022,2026-05-28,14:11:20,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Dine-In,Debit Card
+R1-00022,2026-05-28,14:11:20,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Dine-In,Debit Card
+R1-00022,2026-05-28,14:11:20,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Debit Card
+R1-00022,2026-05-28,14:11:20,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Debit Card
+R1-00023,2026-05-28,17:33:01,202,Cheeseburger,Burger,,3.99,2,7.98,Drive-Thru,Credit Card
+R1-00023,2026-05-28,17:33:01,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00024,2026-05-28,19:51:09,201,Hamburger,Burger,,3.49,1,3.49,Dine-In,Debit Card
+R1-00024,2026-05-28,19:51:09,403,Soft Drink (Large),Drink,Large,2.19,2,4.38,Dine-In,Debit Card
+R1-00025,2026-05-29,09:02:45,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Cash
+R1-00025,2026-05-29,09:02:45,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Cash
+R1-00025,2026-05-29,09:02:45,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Cash
+R1-00026,2026-05-29,11:53:50,201,Hamburger,Burger,,3.49,1,3.49,Dine-In,Credit Card
+R1-00026,2026-05-29,11:53:50,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Credit Card
+R1-00027,2026-05-29,12:04:11,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Takeout,Debit Card
+R1-00027,2026-05-29,12:04:11,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Takeout,Debit Card
+R1-00027,2026-05-29,12:04:11,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Takeout,Debit Card
+R1-00027,2026-05-29,12:04:11,105,Spicy Chicken Sandwich,Chicken,,6.29,3,18.87,Takeout,Debit Card
+R1-00028,2026-05-29,12:15:24,202,Cheeseburger,Burger,,3.99,1,3.99,Dine-In,Debit Card
+R1-00028,2026-05-29,12:15:24,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Debit Card
+R1-00029,2026-05-29,12:35:17,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Credit Card
+R1-00029,2026-05-29,12:35:17,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Credit Card
+R1-00030,2026-05-29,13:15:35,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Dine-In,Debit Card
+R1-00030,2026-05-29,13:15:35,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Dine-In,Debit Card
+R1-00030,2026-05-29,13:15:35,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Dine-In,Debit Card
+R1-00031,2026-05-29,14:23:54,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Drive-Thru,Debit Card
+R1-00031,2026-05-29,14:23:54,302,Medium Fries,Fries,Medium,2.49,2,4.98,Drive-Thru,Debit Card
+R1-00031,2026-05-29,14:23:54,404,Bottled Water,Drink,,1.79,2,3.58,Drive-Thru,Debit Card
+R1-00031,2026-05-29,14:23:54,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Debit Card
+R1-00032,2026-05-29,16:36:41,202,Cheeseburger,Burger,,3.99,1,3.99,Dine-In,Credit Card
+R1-00032,2026-05-29,16:36:41,301,Small Fries,Fries,Small,1.99,2,3.98,Dine-In,Credit Card
+R1-00033,2026-05-29,19:52:30,204,Bacon Cheeseburger,Burger,,6.29,2,12.58,Delivery,Credit Card
+R1-00033,2026-05-29,19:52:30,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Delivery,Credit Card
+R1-00033,2026-05-29,19:52:30,301,Small Fries,Fries,Small,1.99,1,1.99,Delivery,Credit Card
+R1-00033,2026-05-29,19:52:30,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Delivery,Credit Card
+R1-00033,2026-05-29,19:52:30,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Delivery,Credit Card
+R1-00034,2026-05-30,09:21:22,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Debit Card
+R1-00034,2026-05-30,09:21:22,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Drive-Thru,Debit Card
+R1-00034,2026-05-30,09:21:22,301,Small Fries,Fries,Small,1.99,2,3.98,Drive-Thru,Debit Card
+R1-00035,2026-05-30,12:09:58,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Dine-In,Credit Card
+R1-00035,2026-05-30,12:09:58,304,Loaded Cheese Fries,Fries,,3.99,3,11.97,Dine-In,Credit Card
+R1-00035,2026-05-30,12:09:58,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Dine-In,Credit Card
+R1-00036,2026-05-30,12:14:39,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Cash
+R1-00036,2026-05-30,12:14:39,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Cash
+R1-00036,2026-05-30,12:14:39,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Cash
+R1-00037,2026-05-30,15:18:22,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Drive-Thru,Mobile Pay
+R1-00037,2026-05-30,15:18:22,302,Medium Fries,Fries,Medium,2.49,3,7.47,Drive-Thru,Mobile Pay
+R1-00037,2026-05-30,15:18:22,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Mobile Pay
+R1-00038,2026-05-30,18:00:38,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Drive-Thru,Credit Card
+R1-00038,2026-05-30,18:00:38,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00038,2026-05-30,18:00:38,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Credit Card
+R1-00039,2026-05-30,18:25:08,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Delivery,Credit Card
+R1-00039,2026-05-30,18:25:08,301,Small Fries,Fries,Small,1.99,1,1.99,Delivery,Credit Card
+R1-00039,2026-05-30,18:25:08,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Delivery,Credit Card
+R1-00040,2026-05-30,19:25:24,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Credit Card
+R1-00040,2026-05-30,19:25:24,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Drive-Thru,Credit Card
+R1-00040,2026-05-30,19:25:24,301,Small Fries,Fries,Small,1.99,1,1.99,Drive-Thru,Credit Card
+R1-00040,2026-05-30,19:25:24,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Credit Card
+R1-00041,2026-05-30,19:33:51,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00041,2026-05-30,19:33:51,301,Small Fries,Fries,Small,1.99,1,1.99,Drive-Thru,Credit Card
+R1-00042,2026-05-31,10:47:38,202,Cheeseburger,Burger,,3.99,1,3.99,Dine-In,Debit Card
+R1-00042,2026-05-31,10:47:38,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Dine-In,Debit Card
+R1-00042,2026-05-31,10:47:38,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Dine-In,Debit Card
+R1-00043,2026-05-31,11:37:35,104,Crispy Chicken Sandwich,Chicken,,5.99,3,17.97,Dine-In,Debit Card
+R1-00043,2026-05-31,11:37:35,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Dine-In,Debit Card
+R1-00043,2026-05-31,11:37:35,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Debit Card
+R1-00044,2026-05-31,13:10:09,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,2,21.98,Drive-Thru,Debit Card
+R1-00045,2026-05-31,18:53:09,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Dine-In,Credit Card
+R1-00045,2026-05-31,18:53:09,301,Small Fries,Fries,Small,1.99,2,3.98,Dine-In,Credit Card
+R1-00046,2026-05-31,19:22:00,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00046,2026-05-31,19:22:00,404,Bottled Water,Drink,,1.79,2,3.58,Drive-Thru,Credit Card
+R1-00047,2026-05-31,21:44:49,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,3,19.47,Dine-In,Mobile Pay
+R1-00047,2026-05-31,21:44:49,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Dine-In,Mobile Pay
+R1-00047,2026-05-31,21:44:49,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Mobile Pay
+R1-00047,2026-05-31,21:44:49,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Dine-In,Mobile Pay
+R1-00048,2026-06-01,11:34:41,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Takeout,Debit Card
+R1-00048,2026-06-01,11:34:41,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Takeout,Debit Card
+R1-00048,2026-06-01,11:34:41,301,Small Fries,Fries,Small,1.99,1,1.99,Takeout,Debit Card
+R1-00048,2026-06-01,11:34:41,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Takeout,Debit Card
+R1-00048,2026-06-01,11:34:41,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Takeout,Debit Card
+R1-00049,2026-06-01,11:41:14,201,Hamburger,Burger,,3.49,1,3.49,Dine-In,Debit Card
+R1-00049,2026-06-01,11:41:14,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Debit Card
+R1-00050,2026-06-01,13:47:55,201,Hamburger,Burger,,3.49,3,10.47,Dine-In,Credit Card
+R1-00050,2026-06-01,13:47:55,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Credit Card
+R1-00050,2026-06-01,13:47:55,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Credit Card
+R1-00050,2026-06-01,13:47:55,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,2,21.98,Dine-In,Credit Card
+R1-00051,2026-06-01,18:31:23,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Drive-Thru,Credit Card
+R1-00052,2026-06-01,18:50:14,201,Hamburger,Burger,,3.49,1,3.49,Takeout,Debit Card
+R1-00052,2026-06-01,18:50:14,302,Medium Fries,Fries,Medium,2.49,1,2.49,Takeout,Debit Card
+R1-00052,2026-06-01,18:50:14,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Takeout,Debit Card
+R1-00053,2026-06-01,18:50:40,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Credit Card
+R1-00053,2026-06-01,18:50:40,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Drive-Thru,Credit Card
+R1-00053,2026-06-01,18:50:40,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00053,2026-06-01,18:50:40,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00054,2026-06-01,19:05:33,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Credit Card
+R1-00054,2026-06-01,19:05:33,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Credit Card
+R1-00054,2026-06-01,19:05:33,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00055,2026-06-02,11:51:11,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Dine-In,Debit Card
+R1-00055,2026-06-02,11:51:11,302,Medium Fries,Fries,Medium,2.49,2,4.98,Dine-In,Debit Card
+R1-00056,2026-06-02,13:21:57,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Dine-In,Mobile Pay
+R1-00056,2026-06-02,13:21:57,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Dine-In,Mobile Pay
+R1-00057,2026-06-02,13:46:52,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Drive-Thru,Debit Card
+R1-00057,2026-06-02,13:46:52,301,Small Fries,Fries,Small,1.99,1,1.99,Drive-Thru,Debit Card
+R1-00058,2026-06-02,15:52:33,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Credit Card
+R1-00058,2026-06-02,15:52:33,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Drive-Thru,Credit Card
+R1-00058,2026-06-02,15:52:33,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Credit Card
+R1-00059,2026-06-02,16:25:23,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Dine-In,Mobile Pay
+R1-00059,2026-06-02,16:25:23,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Dine-In,Mobile Pay
+R1-00059,2026-06-02,16:25:23,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Mobile Pay
+R1-00060,2026-06-02,18:22:12,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00060,2026-06-02,18:22:12,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Credit Card
+R1-00060,2026-06-02,18:22:12,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Credit Card
+R1-00061,2026-06-03,11:29:09,202,Cheeseburger,Burger,,3.99,1,3.99,Takeout,Debit Card
+R1-00061,2026-06-03,11:29:09,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Takeout,Debit Card
+R1-00061,2026-06-03,11:29:09,303,Large Fries,Fries,Large,2.99,1,2.99,Takeout,Debit Card
+R1-00061,2026-06-03,11:29:09,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Takeout,Debit Card
+R1-00061,2026-06-03,11:29:09,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Takeout,Debit Card
+R1-00062,2026-06-03,12:06:15,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Takeout,Credit Card
+R1-00062,2026-06-03,12:06:15,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Takeout,Credit Card
+R1-00062,2026-06-03,12:06:15,302,Medium Fries,Fries,Medium,2.49,1,2.49,Takeout,Credit Card
+R1-00063,2026-06-03,12:09:41,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Takeout,Debit Card
+R1-00063,2026-06-03,12:09:41,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Takeout,Debit Card
+R1-00064,2026-06-03,16:36:13,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Debit Card
+R1-00064,2026-06-03,16:36:13,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Debit Card
+R1-00064,2026-06-03,16:36:13,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Debit Card
+R1-00065,2026-06-04,11:40:23,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Mobile Pay
+R1-00065,2026-06-04,11:40:23,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Drive-Thru,Mobile Pay
+R1-00065,2026-06-04,11:40:23,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Mobile Pay
+R1-00065,2026-06-04,11:40:23,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Mobile Pay
+R1-00066,2026-06-04,13:58:28,203,Double Cheeseburger,Burger,,5.49,2,10.98,Takeout,Mobile Pay
+R1-00066,2026-06-04,13:58:28,301,Small Fries,Fries,Small,1.99,3,5.97,Takeout,Mobile Pay
+R1-00066,2026-06-04,13:58:28,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Takeout,Mobile Pay
+R1-00067,2026-06-04,14:03:22,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Drive-Thru,Credit Card
+R1-00067,2026-06-04,14:03:22,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00068,2026-06-04,16:50:33,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Credit Card
+R1-00068,2026-06-04,16:50:33,301,Small Fries,Fries,Small,1.99,3,5.97,Dine-In,Credit Card
+R1-00069,2026-06-04,18:29:15,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Delivery,Debit Card
+R1-00069,2026-06-04,18:29:15,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Delivery,Debit Card
+R1-00069,2026-06-04,18:29:15,302,Medium Fries,Fries,Medium,2.49,3,7.47,Delivery,Debit Card
+R1-00069,2026-06-04,18:29:15,404,Bottled Water,Drink,,1.79,1,1.79,Delivery,Debit Card
+R1-00069,2026-06-04,18:29:15,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Delivery,Debit Card
+R1-00070,2026-06-05,11:02:23,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Delivery,Credit Card
+R1-00070,2026-06-05,11:02:23,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Delivery,Credit Card
+R1-00070,2026-06-05,11:02:23,303,Large Fries,Fries,Large,2.99,1,2.99,Delivery,Credit Card
+R1-00070,2026-06-05,11:02:23,401,Soft Drink (Small),Drink,Small,1.49,2,2.98,Delivery,Credit Card
+R1-00071,2026-06-05,12:55:11,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Credit Card
+R1-00071,2026-06-05,12:55:11,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Credit Card
+R1-00071,2026-06-05,12:55:11,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00072,2026-06-05,13:32:37,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Debit Card
+R1-00072,2026-06-05,13:32:37,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,3,21.87,Drive-Thru,Debit Card
+R1-00072,2026-06-05,13:32:37,304,Loaded Cheese Fries,Fries,,3.99,2,7.98,Drive-Thru,Debit Card
+R1-00072,2026-06-05,13:32:37,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Debit Card
+R1-00073,2026-06-05,13:35:09,203,Double Cheeseburger,Burger,,5.49,2,10.98,Dine-In,Credit Card
+R1-00073,2026-06-05,13:35:09,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Dine-In,Credit Card
+R1-00074,2026-06-05,18:19:33,202,Cheeseburger,Burger,,3.99,1,3.99,Delivery,Debit Card
+R1-00074,2026-06-05,18:19:33,303,Large Fries,Fries,Large,2.99,1,2.99,Delivery,Debit Card
+R1-00074,2026-06-05,18:19:33,404,Bottled Water,Drink,,1.79,2,3.58,Delivery,Debit Card
+R1-00075,2026-06-05,18:47:49,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Delivery,Credit Card
+R1-00075,2026-06-05,18:47:49,302,Medium Fries,Fries,Medium,2.49,1,2.49,Delivery,Credit Card
+R1-00075,2026-06-05,18:47:49,404,Bottled Water,Drink,,1.79,1,1.79,Delivery,Credit Card
+R1-00076,2026-06-05,19:10:34,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Cash
+R1-00077,2026-06-06,13:57:35,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Takeout,Credit Card
+R1-00077,2026-06-06,13:57:35,302,Medium Fries,Fries,Medium,2.49,1,2.49,Takeout,Credit Card
+R1-00077,2026-06-06,13:57:35,404,Bottled Water,Drink,,1.79,2,3.58,Takeout,Credit Card
+R1-00078,2026-06-06,17:11:26,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Drive-Thru,Cash
+R1-00078,2026-06-06,17:11:26,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Cash
+R1-00078,2026-06-06,17:11:26,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Drive-Thru,Cash
+R1-00079,2026-06-06,20:54:43,105,Spicy Chicken Sandwich,Chicken,,6.29,3,18.87,Drive-Thru,Cash
+R1-00079,2026-06-06,20:54:43,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Cash
+R1-00079,2026-06-06,20:54:43,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Cash
+R1-00080,2026-06-06,21:12:42,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Dine-In,Credit Card
+R1-00081,2026-06-06,21:49:45,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Credit Card
+R1-00081,2026-06-06,21:49:45,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,2,8.98,Drive-Thru,Credit Card
+R1-00081,2026-06-06,21:49:45,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00081,2026-06-06,21:49:45,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00082,2026-06-06,21:59:52,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Takeout,Credit Card
+R1-00082,2026-06-06,21:59:52,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Takeout,Credit Card
+R1-00082,2026-06-06,21:59:52,404,Bottled Water,Drink,,1.79,1,1.79,Takeout,Credit Card
+R1-00083,2026-06-07,11:17:22,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Credit Card
+R1-00083,2026-06-07,11:17:22,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,2,9.98,Drive-Thru,Credit Card
+R1-00083,2026-06-07,11:17:22,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00083,2026-06-07,11:17:22,401,Soft Drink (Small),Drink,Small,1.49,3,4.47,Drive-Thru,Credit Card
+R1-00083,2026-06-07,11:17:22,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,2,14.58,Drive-Thru,Credit Card
+R1-00084,2026-06-07,13:27:27,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Credit Card
+R1-00084,2026-06-07,13:27:27,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Drive-Thru,Credit Card
+R1-00084,2026-06-07,13:27:27,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00084,2026-06-07,13:27:27,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00085,2026-06-07,14:35:31,201,Hamburger,Burger,,3.49,3,10.47,Delivery,Mobile Pay
+R1-00085,2026-06-07,14:35:31,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,2,21.98,Delivery,Mobile Pay
+R1-00085,2026-06-07,14:35:31,301,Small Fries,Fries,Small,1.99,2,3.98,Delivery,Mobile Pay
+R1-00085,2026-06-07,14:35:31,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Delivery,Mobile Pay
+R1-00086,2026-06-07,18:09:19,202,Cheeseburger,Burger,,3.99,2,7.98,Delivery,Credit Card
+R1-00086,2026-06-07,18:09:19,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Delivery,Credit Card
+R1-00086,2026-06-07,18:09:19,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Delivery,Credit Card
+R1-00086,2026-06-07,18:09:19,404,Bottled Water,Drink,,1.79,1,1.79,Delivery,Credit Card
+R1-00086,2026-06-07,18:09:19,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Delivery,Credit Card
+R1-00087,2026-06-07,18:18:30,201,Hamburger,Burger,,3.49,1,3.49,Takeout,Credit Card
+R1-00087,2026-06-07,18:18:30,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Takeout,Credit Card
+R1-00088,2026-06-07,19:09:55,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Debit Card
+R1-00088,2026-06-07,19:09:55,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Debit Card
+R1-00088,2026-06-07,19:09:55,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Debit Card
+R1-00089,2026-06-07,20:38:58,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Dine-In,Debit Card
+R1-00089,2026-06-07,20:38:58,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Dine-In,Debit Card
+R1-00089,2026-06-07,20:38:58,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Debit Card
+R1-00090,2026-06-08,12:51:40,205,Stack Deluxe Burger,Burger,,7.49,2,14.98,Takeout,Credit Card
+R1-00090,2026-06-08,12:51:40,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Takeout,Credit Card
+R1-00090,2026-06-08,12:51:40,403,Soft Drink (Large),Drink,Large,2.19,2,4.38,Takeout,Credit Card
+R1-00091,2026-06-08,18:23:02,202,Cheeseburger,Burger,,3.99,1,3.99,Delivery,Credit Card
+R1-00091,2026-06-08,18:23:02,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Delivery,Credit Card
+R1-00091,2026-06-08,18:23:02,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Delivery,Credit Card
+R1-00092,2026-06-09,09:52:33,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Delivery,Credit Card
+R1-00092,2026-06-09,09:52:33,302,Medium Fries,Fries,Medium,2.49,1,2.49,Delivery,Credit Card
+R1-00092,2026-06-09,09:52:33,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Delivery,Credit Card
+R1-00093,2026-06-09,11:51:10,202,Cheeseburger,Burger,,3.99,2,7.98,Dine-In,Debit Card
+R1-00093,2026-06-09,11:51:10,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Debit Card
+R1-00094,2026-06-09,12:26:11,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Debit Card
+R1-00094,2026-06-09,12:26:11,104,Crispy Chicken Sandwich,Chicken,,5.99,2,11.98,Drive-Thru,Debit Card
+R1-00094,2026-06-09,12:26:11,301,Small Fries,Fries,Small,1.99,3,5.97,Drive-Thru,Debit Card
+R1-00094,2026-06-09,12:26:11,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Debit Card
+R1-00095,2026-06-09,13:32:20,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Mobile Pay
+R1-00095,2026-06-09,13:32:20,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Drive-Thru,Mobile Pay
+R1-00095,2026-06-09,13:32:20,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Mobile Pay
+R1-00096,2026-06-09,14:47:14,201,Hamburger,Burger,,3.49,1,3.49,Dine-In,Mobile Pay
+R1-00096,2026-06-09,14:47:14,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Dine-In,Mobile Pay
+R1-00096,2026-06-09,14:47:14,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Dine-In,Mobile Pay
+R1-00096,2026-06-09,14:47:14,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Dine-In,Mobile Pay
+R1-00097,2026-06-09,17:13:52,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Takeout,Mobile Pay
+R1-00097,2026-06-09,17:13:52,302,Medium Fries,Fries,Medium,2.49,1,2.49,Takeout,Mobile Pay
+R1-00097,2026-06-09,17:13:52,404,Bottled Water,Drink,,1.79,1,1.79,Takeout,Mobile Pay
+R1-00098,2026-06-10,11:11:24,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Mobile Pay
+R1-00098,2026-06-10,11:11:24,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Drive-Thru,Mobile Pay
+R1-00098,2026-06-10,11:11:24,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Mobile Pay
+R1-00099,2026-06-10,12:03:59,203,Double Cheeseburger,Burger,,5.49,1,5.49,Takeout,Credit Card
+R1-00100,2026-06-10,12:43:52,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Drive-Thru,Debit Card
+R1-00100,2026-06-10,12:43:52,304,Loaded Cheese Fries,Fries,,3.99,2,7.98,Drive-Thru,Debit Card
+R1-00101,2026-06-10,17:52:44,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Dine-In,Debit Card
+R1-00101,2026-06-10,17:52:44,304,Loaded Cheese Fries,Fries,,3.99,2,7.98,Dine-In,Debit Card
+R1-00101,2026-06-10,17:52:44,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Dine-In,Debit Card
+R1-00101,2026-06-10,17:52:44,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Dine-In,Debit Card
+R1-00102,2026-06-10,21:12:49,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Drive-Thru,Debit Card
+R1-00102,2026-06-10,21:12:49,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Debit Card
+R1-00102,2026-06-10,21:12:49,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Debit Card
+R1-00103,2026-06-11,11:02:04,203,Double Cheeseburger,Burger,,5.49,1,5.49,Takeout,Mobile Pay
+R1-00103,2026-06-11,11:02:04,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Takeout,Mobile Pay
+R1-00103,2026-06-11,11:02:04,301,Small Fries,Fries,Small,1.99,1,1.99,Takeout,Mobile Pay
+R1-00104,2026-06-11,11:10:30,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Takeout,Credit Card
+R1-00104,2026-06-11,11:10:30,303,Large Fries,Fries,Large,2.99,1,2.99,Takeout,Credit Card
+R1-00105,2026-06-11,11:12:52,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Debit Card
+R1-00105,2026-06-11,11:12:52,105,Spicy Chicken Sandwich,Chicken,,6.29,2,12.58,Drive-Thru,Debit Card
+R1-00105,2026-06-11,11:12:52,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Debit Card
+R1-00105,2026-06-11,11:12:52,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Debit Card
+R1-00106,2026-06-11,11:23:01,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Delivery,Debit Card
+R1-00106,2026-06-11,11:23:01,302,Medium Fries,Fries,Medium,2.49,3,7.47,Delivery,Debit Card
+R1-00107,2026-06-11,18:32:00,202,Cheeseburger,Burger,,3.99,2,7.98,Drive-Thru,Credit Card
+R1-00107,2026-06-11,18:32:00,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00108,2026-06-11,19:11:20,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Drive-Thru,Debit Card
+R1-00108,2026-06-11,19:11:20,404,Bottled Water,Drink,,1.79,2,3.58,Drive-Thru,Debit Card
+R1-00109,2026-06-11,19:11:53,201,Hamburger,Burger,,3.49,2,6.98,Dine-In,Mobile Pay
+R1-00109,2026-06-11,19:11:53,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Dine-In,Mobile Pay
+R1-00109,2026-06-11,19:11:53,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Mobile Pay
+R1-00109,2026-06-11,19:11:53,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Dine-In,Mobile Pay
+R1-00110,2026-06-11,19:58:40,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Cash
+R1-00110,2026-06-11,19:58:40,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Cash
+R1-00111,2026-06-12,10:57:29,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Credit Card
+R1-00111,2026-06-12,10:57:29,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Drive-Thru,Credit Card
+R1-00111,2026-06-12,10:57:29,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00111,2026-06-12,10:57:29,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00112,2026-06-12,12:21:25,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Dine-In,Credit Card
+R1-00112,2026-06-12,12:21:25,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Credit Card
+R1-00113,2026-06-12,13:16:03,201,Hamburger,Burger,,3.49,1,3.49,Takeout,Mobile Pay
+R1-00113,2026-06-12,13:16:03,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Takeout,Mobile Pay
+R1-00114,2026-06-12,13:33:22,104,Crispy Chicken Sandwich,Chicken,,5.99,2,11.98,Dine-In,Mobile Pay
+R1-00114,2026-06-12,13:33:22,303,Large Fries,Fries,Large,2.99,1,2.99,Dine-In,Mobile Pay
+R1-00114,2026-06-12,13:33:22,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Dine-In,Mobile Pay
+R1-00115,2026-06-12,13:55:29,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Dine-In,Debit Card
+R1-00115,2026-06-12,13:55:29,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Dine-In,Debit Card
+R1-00115,2026-06-12,13:55:29,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Debit Card
+R1-00116,2026-06-12,16:21:43,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Delivery,Mobile Pay
+R1-00116,2026-06-12,16:21:43,302,Medium Fries,Fries,Medium,2.49,3,7.47,Delivery,Mobile Pay
+R1-00116,2026-06-12,16:21:43,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Delivery,Mobile Pay
+R1-00116,2026-06-12,16:21:43,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Delivery,Mobile Pay
+R1-00117,2026-06-13,10:31:51,202,Cheeseburger,Burger,,3.99,1,3.99,Delivery,Debit Card
+R1-00117,2026-06-13,10:31:51,404,Bottled Water,Drink,,1.79,1,1.79,Delivery,Debit Card
+R1-00118,2026-06-13,12:37:02,203,Double Cheeseburger,Burger,,5.49,1,5.49,Takeout,Debit Card
+R1-00118,2026-06-13,12:37:02,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Takeout,Debit Card
+R1-00118,2026-06-13,12:37:02,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Takeout,Debit Card
+R1-00119,2026-06-13,12:37:45,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Drive-Thru,Credit Card
+R1-00119,2026-06-13,12:37:45,301,Small Fries,Fries,Small,1.99,1,1.99,Drive-Thru,Credit Card
+R1-00119,2026-06-13,12:37:45,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Credit Card
+R1-00120,2026-06-13,13:57:15,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Drive-Thru,Credit Card
+R1-00120,2026-06-13,13:57:15,302,Medium Fries,Fries,Medium,2.49,2,4.98,Drive-Thru,Credit Card
+R1-00120,2026-06-13,13:57:15,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00121,2026-06-13,21:15:48,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Credit Card
+R1-00122,2026-06-14,11:50:09,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Mobile Pay
+R1-00122,2026-06-14,11:50:09,404,Bottled Water,Drink,,1.79,2,3.58,Drive-Thru,Mobile Pay
+R1-00122,2026-06-14,11:50:09,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Mobile Pay
+R1-00123,2026-06-14,12:44:19,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,3,14.97,Takeout,Mobile Pay
+R1-00123,2026-06-14,12:44:19,301,Small Fries,Fries,Small,1.99,1,1.99,Takeout,Mobile Pay
+R1-00123,2026-06-14,12:44:19,404,Bottled Water,Drink,,1.79,2,3.58,Takeout,Mobile Pay
+R1-00124,2026-06-14,13:23:19,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Delivery,Credit Card
+R1-00124,2026-06-14,13:23:19,301,Small Fries,Fries,Small,1.99,1,1.99,Delivery,Credit Card
+R1-00124,2026-06-14,13:23:19,403,Soft Drink (Large),Drink,Large,2.19,2,4.38,Delivery,Credit Card
+R1-00125,2026-06-15,12:05:29,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Dine-In,Credit Card
+R1-00126,2026-06-15,12:38:04,104,Crispy Chicken Sandwich,Chicken,,5.99,3,17.97,Takeout,Debit Card
+R1-00126,2026-06-15,12:38:04,302,Medium Fries,Fries,Medium,2.49,1,2.49,Takeout,Debit Card
+R1-00127,2026-06-15,13:53:06,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Drive-Thru,Credit Card
+R1-00128,2026-06-15,16:36:59,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Debit Card
+R1-00128,2026-06-15,16:36:59,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Debit Card
+R1-00128,2026-06-15,16:36:59,403,Soft Drink (Large),Drink,Large,2.19,2,4.38,Drive-Thru,Debit Card
+R1-00129,2026-06-15,16:56:59,201,Hamburger,Burger,,3.49,1,3.49,Dine-In,Mobile Pay
+R1-00129,2026-06-15,16:56:59,303,Large Fries,Fries,Large,2.99,1,2.99,Dine-In,Mobile Pay
+R1-00129,2026-06-15,16:56:59,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Dine-In,Mobile Pay
+R1-00130,2026-06-15,17:45:03,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Credit Card
+R1-00130,2026-06-15,17:45:03,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Credit Card
+R1-00130,2026-06-15,17:45:03,403,Soft Drink (Large),Drink,Large,2.19,3,6.57,Drive-Thru,Credit Card
+R1-00131,2026-06-16,11:13:09,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,1,10.99,Drive-Thru,Credit Card
+R1-00132,2026-06-16,11:25:10,202,Cheeseburger,Burger,,3.99,3,11.97,Drive-Thru,Credit Card
+R1-00132,2026-06-16,11:25:10,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Credit Card
+R1-00132,2026-06-16,11:25:10,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00132,2026-06-16,11:25:10,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Credit Card
+R1-00133,2026-06-16,12:17:36,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00133,2026-06-16,12:17:36,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Drive-Thru,Credit Card
+R1-00133,2026-06-16,12:17:36,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00133,2026-06-16,12:17:36,401,Soft Drink (Small),Drink,Small,1.49,3,4.47,Drive-Thru,Credit Card
+R1-00134,2026-06-16,12:21:39,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Drive-Thru,Credit Card
+R1-00134,2026-06-16,12:21:39,301,Small Fries,Fries,Small,1.99,1,1.99,Drive-Thru,Credit Card
+R1-00135,2026-06-16,15:13:05,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Drive-Thru,Cash
+R1-00135,2026-06-16,15:13:05,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Drive-Thru,Cash
+R1-00135,2026-06-16,15:13:05,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Cash
+R1-00135,2026-06-16,15:13:05,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Cash
+R1-00136,2026-06-16,18:37:51,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Drive-Thru,Debit Card
+R1-00136,2026-06-16,18:37:51,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Debit Card
+R1-00136,2026-06-16,18:37:51,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Debit Card
+R1-00137,2026-06-16,21:59:35,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Takeout,Credit Card
+R1-00137,2026-06-16,21:59:35,303,Large Fries,Fries,Large,2.99,1,2.99,Takeout,Credit Card
+R1-00138,2026-06-17,11:06:49,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Debit Card
+R1-00138,2026-06-17,11:06:49,301,Small Fries,Fries,Small,1.99,1,1.99,Dine-In,Debit Card
+R1-00138,2026-06-17,11:06:49,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Debit Card
+R1-00138,2026-06-17,11:06:49,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Dine-In,Debit Card
+R1-00139,2026-06-17,11:17:28,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,1,6.49,Drive-Thru,Credit Card
+R1-00139,2026-06-17,11:17:28,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Credit Card
+R1-00140,2026-06-17,15:53:54,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Dine-In,Mobile Pay
+R1-00140,2026-06-17,15:53:54,103,Chicken Nuggets (20 pc),Chicken,20 pc,10.99,2,21.98,Dine-In,Mobile Pay
+R1-00141,2026-06-17,17:05:47,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Drive-Thru,Mobile Pay
+R1-00142,2026-06-17,18:58:56,106,Grilled Chicken Wrap,Chicken,,5.49,2,10.98,Drive-Thru,Credit Card
+R1-00142,2026-06-17,18:58:56,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Credit Card
+R1-00142,2026-06-17,18:58:56,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Credit Card
+R1-00143,2026-06-17,21:57:57,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Takeout,Mobile Pay
+R1-00144,2026-06-18,15:23:11,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Credit Card
+R1-00144,2026-06-18,15:23:11,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00145,2026-06-18,17:14:40,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Dine-In,Debit Card
+R1-00146,2026-06-18,17:37:35,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Debit Card
+R1-00146,2026-06-18,17:37:35,303,Large Fries,Fries,Large,2.99,3,8.97,Drive-Thru,Debit Card
+R1-00146,2026-06-18,17:37:35,403,Soft Drink (Large),Drink,Large,2.19,2,4.38,Drive-Thru,Debit Card
+R1-00147,2026-06-18,17:51:26,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Debit Card
+R1-00147,2026-06-18,17:51:26,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Debit Card
+R1-00147,2026-06-18,17:51:26,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Drive-Thru,Debit Card
+R1-00148,2026-06-18,18:07:22,202,Cheeseburger,Burger,,3.99,2,7.98,Drive-Thru,Debit Card
+R1-00148,2026-06-18,18:07:22,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Debit Card
+R1-00148,2026-06-18,18:07:22,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Debit Card
+R1-00149,2026-06-18,18:44:27,202,Cheeseburger,Burger,,3.99,1,3.99,Delivery,Credit Card
+R1-00149,2026-06-18,18:44:27,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Delivery,Credit Card
+R1-00149,2026-06-18,18:44:27,404,Bottled Water,Drink,,1.79,1,1.79,Delivery,Credit Card
+R1-00149,2026-06-18,18:44:27,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Delivery,Credit Card
+R1-00150,2026-06-19,11:00:51,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Delivery,Debit Card
+R1-00150,2026-06-19,11:00:51,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Delivery,Debit Card
+R1-00151,2026-06-19,12:10:37,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Takeout,Credit Card
+R1-00151,2026-06-19,12:10:37,302,Medium Fries,Fries,Medium,2.49,1,2.49,Takeout,Credit Card
+R1-00152,2026-06-19,18:07:26,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Dine-In,Debit Card
+R1-00152,2026-06-19,18:07:26,301,Small Fries,Fries,Small,1.99,1,1.99,Dine-In,Debit Card
+R1-00153,2026-06-19,18:11:31,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Credit Card
+R1-00153,2026-06-19,18:11:31,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Drive-Thru,Credit Card
+R1-00153,2026-06-19,18:11:31,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00154,2026-06-19,19:35:23,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Credit Card
+R1-00154,2026-06-19,19:35:23,303,Large Fries,Fries,Large,2.99,3,8.97,Drive-Thru,Credit Card
+R1-00155,2026-06-19,20:04:40,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Cash
+R1-00155,2026-06-19,20:04:40,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Cash
+R1-00155,2026-06-19,20:04:40,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Cash
+R1-00156,2026-06-20,18:40:15,106,Grilled Chicken Wrap,Chicken,,5.49,1,5.49,Drive-Thru,Credit Card
+R1-00156,2026-06-20,18:40:15,303,Large Fries,Fries,Large,2.99,2,5.98,Drive-Thru,Credit Card
+R1-00156,2026-06-20,18:40:15,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Credit Card
+R1-00156,2026-06-20,18:40:15,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Drive-Thru,Credit Card
+R1-00157,2026-06-20,21:21:46,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Drive-Thru,Credit Card
+R1-00157,2026-06-20,21:21:46,403,Soft Drink (Large),Drink,Large,2.19,3,6.57,Drive-Thru,Credit Card
+R1-00158,2026-06-21,12:08:28,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Credit Card
+R1-00158,2026-06-21,12:08:28,301,Small Fries,Fries,Small,1.99,1,1.99,Drive-Thru,Credit Card
+R1-00158,2026-06-21,12:08:28,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Credit Card
+R1-00159,2026-06-21,12:31:03,202,Cheeseburger,Burger,,3.99,1,3.99,Takeout,Debit Card
+R1-00159,2026-06-21,12:31:03,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Takeout,Debit Card
+R1-00160,2026-06-21,12:48:41,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Credit Card
+R1-00161,2026-06-21,14:07:07,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Delivery,Credit Card
+R1-00161,2026-06-21,14:07:07,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Delivery,Credit Card
+R1-00162,2026-06-21,18:50:52,202,Cheeseburger,Burger,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00162,2026-06-21,18:50:52,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Credit Card
+R1-00162,2026-06-21,18:50:52,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00163,2026-06-21,19:00:26,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Credit Card
+R1-00163,2026-06-21,19:00:26,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Credit Card
+R1-00163,2026-06-21,19:00:26,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Credit Card
+R1-00163,2026-06-21,19:00:26,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Credit Card
+R1-00164,2026-06-22,11:02:48,202,Cheeseburger,Burger,,3.99,2,7.98,Drive-Thru,Credit Card
+R1-00164,2026-06-22,11:02:48,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Credit Card
+R1-00165,2026-06-22,11:11:22,202,Cheeseburger,Burger,,3.99,1,3.99,Dine-In,Credit Card
+R1-00165,2026-06-22,11:11:22,104,Crispy Chicken Sandwich,Chicken,,5.99,1,5.99,Dine-In,Credit Card
+R1-00165,2026-06-22,11:11:22,303,Large Fries,Fries,Large,2.99,1,2.99,Dine-In,Credit Card
+R1-00165,2026-06-22,11:11:22,401,Soft Drink (Small),Drink,Small,1.49,2,2.98,Dine-In,Credit Card
+R1-00166,2026-06-22,11:31:39,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Drive-Thru,Mobile Pay
+R1-00167,2026-06-22,13:09:19,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Takeout,Credit Card
+R1-00167,2026-06-22,13:09:19,301,Small Fries,Fries,Small,1.99,1,1.99,Takeout,Credit Card
+R1-00168,2026-06-22,13:19:00,201,Hamburger,Burger,,3.49,1,3.49,Dine-In,Credit Card
+R1-00168,2026-06-22,13:19:00,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Dine-In,Credit Card
+R1-00168,2026-06-22,13:19:00,301,Small Fries,Fries,Small,1.99,2,3.98,Dine-In,Credit Card
+R1-00168,2026-06-22,13:19:00,401,Soft Drink (Small),Drink,Small,1.49,1,1.49,Dine-In,Credit Card
+R1-00169,2026-06-22,13:49:13,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Delivery,Mobile Pay
+R1-00169,2026-06-22,13:49:13,102,Chicken Nuggets (10 pc),Chicken,10 pc,6.49,2,12.98,Delivery,Mobile Pay
+R1-00169,2026-06-22,13:49:13,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Delivery,Mobile Pay
+R1-00170,2026-06-22,18:12:19,105,Spicy Chicken Sandwich,Chicken,,6.29,1,6.29,Drive-Thru,Credit Card
+R1-00170,2026-06-22,18:12:19,303,Large Fries,Fries,Large,2.99,1,2.99,Drive-Thru,Credit Card
+R1-00170,2026-06-22,18:12:19,201,Hamburger,Burger,,3.49,1,3.49,Drive-Thru,Credit Card
+R1-00171,2026-06-22,18:50:07,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Credit Card
+R1-00171,2026-06-22,18:50:07,304,Loaded Cheese Fries,Fries,,3.99,3,11.97,Drive-Thru,Credit Card
+R1-00171,2026-06-22,18:50:07,402,Soft Drink (Medium),Drink,Medium,1.89,3,5.67,Drive-Thru,Credit Card
+R1-00172,2026-06-23,09:53:58,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Dine-In,Debit Card
+R1-00172,2026-06-23,09:53:58,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Dine-In,Debit Card
+R1-00172,2026-06-23,09:53:58,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Dine-In,Debit Card
+R1-00172,2026-06-23,09:53:58,404,Bottled Water,Drink,,1.79,1,1.79,Dine-In,Debit Card
+R1-00173,2026-06-23,12:49:01,202,Cheeseburger,Burger,,3.99,1,3.99,Takeout,Cash
+R1-00173,2026-06-23,12:49:01,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Takeout,Cash
+R1-00173,2026-06-23,12:49:01,403,Soft Drink (Large),Drink,Large,2.19,2,4.38,Takeout,Cash
+R1-00173,2026-06-23,12:49:01,202,Cheeseburger,Burger,,3.99,1,3.99,Takeout,Cash
+R1-00174,2026-06-23,13:02:13,108,Chicken Tenders (5 pc),Chicken,5 pc,7.29,1,7.29,Drive-Thru,Credit Card
+R1-00175,2026-06-23,13:59:03,201,Hamburger,Burger,,3.49,1,3.49,Dine-In,Credit Card
+R1-00175,2026-06-23,13:59:03,302,Medium Fries,Fries,Medium,2.49,1,2.49,Dine-In,Credit Card
+R1-00176,2026-06-23,15:23:44,204,Bacon Cheeseburger,Burger,,6.29,1,6.29,Drive-Thru,Mobile Pay
+R1-00176,2026-06-23,15:23:44,402,Soft Drink (Medium),Drink,Medium,1.89,1,1.89,Drive-Thru,Mobile Pay
+R1-00177,2026-06-23,15:55:55,203,Double Cheeseburger,Burger,,5.49,1,5.49,Dine-In,Credit Card
+R1-00177,2026-06-23,15:55:55,304,Loaded Cheese Fries,Fries,,3.99,3,11.97,Dine-In,Credit Card
+R1-00177,2026-06-23,15:55:55,404,Bottled Water,Drink,,1.79,2,3.58,Dine-In,Credit Card
+R1-00178,2026-06-23,18:22:07,101,Chicken Nuggets (6 pc),Chicken,6 pc,4.49,1,4.49,Drive-Thru,Debit Card
+R1-00178,2026-06-23,18:22:07,301,Small Fries,Fries,Small,1.99,1,1.99,Drive-Thru,Debit Card
+R1-00179,2026-06-23,19:29:48,205,Stack Deluxe Burger,Burger,,7.49,1,7.49,Dine-In,Mobile Pay
+R1-00179,2026-06-23,19:29:48,301,Small Fries,Fries,Small,1.99,1,1.99,Dine-In,Mobile Pay
+R1-00179,2026-06-23,19:29:48,403,Soft Drink (Large),Drink,Large,2.19,1,2.19,Dine-In,Mobile Pay
+R1-00180,2026-06-24,12:32:11,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Credit Card
+R1-00180,2026-06-24,12:32:11,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Credit Card
+R1-00181,2026-06-24,18:56:46,107,Chicken Tenders (3 pc),Chicken,3 pc,4.99,1,4.99,Drive-Thru,Debit Card
+R1-00181,2026-06-24,18:56:46,302,Medium Fries,Fries,Medium,2.49,1,2.49,Drive-Thru,Debit Card
+R1-00182,2026-06-24,19:23:08,203,Double Cheeseburger,Burger,,5.49,1,5.49,Drive-Thru,Mobile Pay
+R1-00182,2026-06-24,19:23:08,304,Loaded Cheese Fries,Fries,,3.99,1,3.99,Drive-Thru,Mobile Pay
+R1-00182,2026-06-24,19:23:08,404,Bottled Water,Drink,,1.79,1,1.79,Drive-Thru,Mobile Pay

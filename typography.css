@@ -1,0 +1,208 @@
+
+/* ============================================================
+   GLOBAL WEB STYLE
+   ============================================================ */
+
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #fdf5f5;          
+    color: #040202;                   
+}
+
+/* ============================================================
+   WEB HEADER BLOCK
+   ============================================================ */
+.app-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+    padding: 32px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    position: relative;
+    border-radius: 5px;
+}
+
+.app-header img {
+    height: 52px;
+    width: auto;
+}
+
+.app-title {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    color: #b22222;                     
+}
+.app-title2 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: #b22222;                
+}
+
+.app-subtitle {
+    font-size: 14px;
+    color: #7c4a4a;
+    margin-top: 4px;
+}
+
+/* ============================================================
+   TABS PILLS
+   ============================================================ */
+
+.tab-container {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;                         
+    flex-wrap: wrap;
+    padding: 1px 20px;
+}
+
+/* standard tab pill style */
+.tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 18px;
+    border-radius: 999px;               
+    border: 1px solid #1f6e96;
+    background-color: #43c1ef;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.tab:hover {
+    background-color: #9bdff0;
+    border: 1px solid #1f6e96 !important; /* !important overrides the standard */
+}
+
+/* selected tab */
+.tab--selected,
+.tab--selected:focus,
+.tab--selected:active {
+    background-color: #b22222;
+    color: #fffaf0;
+    border-color: #b22222 !important;
+    box-shadow: 0 2px 6px rgba(178, 34, 34, 0.35) !important;
+    color: #ffffff !important;
+    outline: none !important;      
+}
+
+/* tab content area */
+.tab-content {
+    background-color: #fff3f3 !important;
+    padding: 20px;
+}
+
+/* ============================================================
+   GRAPHS (dcc.Graph / Plotly)
+   ============================================================ */
+
+.graph-container {
+    margin-top: 8px;
+    border-radius: 18px !important;
+}
+
+/* Plotly graph container */
+.js-plotly-plot {
+    border-radius: 15px !important;
+    box-shadow: 0 2px 8px rgba(44, 22, 22, 0.12);
+    background-color: #ffffff;
+}
+
+/* ============================================================
+   CARDS / PANELS
+   ============================================================ */
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 16px 18px;
+    box-shadow: 0 2px 6px rgba(44, 22, 22, 0.08);
+    border: 1px solid #f3b33b;
+    margin-bottom: 16px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #b22222;
+}
+
+.card-body {
+    font-size: 14px;
+    color: #4b2b2b;
+}
+
+/* ============================================================
+   UTILITIES
+   ============================================================ */
+
+.mt-16 { margin-top: 16px; }
+.mb-16 { margin-bottom: 16px; }
+
+/* ============================================================
+   STORE DROPDOWN — MATCH PILL TAB THEME
+   ============================================================ */
+
+/* The visible dropdown "button" */
+#store-dropdown .Select-control {
+    background-color: #ffe9c7 !important;   /* same as pill tabs */
+    border: 1px solid #f3b33b !important;   /* Wendy's yellow border */
+    border-radius: 999px !important;        /* pill shape */
+    min-height: 38px;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+/* Placeholder + selected text */
+#store-dropdown .Select-placeholder,
+#store-dropdown .Select-value-label {
+    color: #7c4a4a !important;              /* same text color as tabs */
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+/* Hover effect */
+#store-dropdown .Select-control:hover {
+    background-color: #fdd79a !important;   /* same hover as tabs */
+}
+
+/* Dropdown arrow */
+#store-dropdown .Select-arrow {
+    border-color: #7c4a4a transparent transparent !important;
+}
+
+/* The dropdown menu itself */
+#store-dropdown .Select-menu-outer {
+    border: 1px solid #f3b33b !important;
+    border-radius: 12px !important;
+    background-color: #fffaf0 !important;
+    box-shadow: 0 4px 10px rgba(44, 22, 22, 0.12);
+}
+
+/* Menu items */
+#store-dropdown .Select-option {
+    padding: 10px 14px;
+    color: #4b2b2b;
+    background-color: #fffaf0;
+}
+
+/* Hovered menu item */
+#store-dropdown .Select-option:hover {
+    background-color: #ffe9c7 !important;
+    color: #7c4a4a !important;
+}
+
+/* Selected menu item */
+#store-dropdown .Select-option.is-selected {
+    background-color: #b22222 !important;   /* Wendy's red */
+    color: #fffaf0 !important;
+}
