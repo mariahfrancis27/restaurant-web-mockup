@@ -25,10 +25,10 @@ from dash import dcc, html, Input, Output, State, ctx
 # LOAD DATA
 # ============================================================
 
-columbus_rest = pd.read_csv("/Users/mariahfrancis/vscode/data/clucknstack_columbus_oh_CS-0142.csv")
+columbus_rest = pd.read_csv("clucknstack_columbus_oh_CS-0142.csv")
 columbus_rest["store"] = "Columbus, OH"
 
-austin_rest = pd.read_csv("/Users/mariahfrancis/vscode/data/clucknstack_austin_tx_CS-0317.csv")
+austin_rest = pd.read_csv("clucknstack_austin_tx_CS-0317.csv")
 austin_rest["store"] = "Austin, TX"
 
 restaurant = pd.concat([columbus_rest, austin_rest], ignore_index=True)
