@@ -12,23 +12,23 @@ import plotly.express as px
 
 import dash
 from dash import dcc, html, Input, Output, State, ctx
-import anthropic
+# import anthropic
 
 # ============================================================
 # AI CLIENT
 # ============================================================
 # Requires ANTHROPIC_API_KEY to be set as an environment variable.
 # Never hardcode the key in source.
-ai_client = anthropic.Anthropic()  # picks up ANTHROPIC_API_KEY from env
+# ai_client = anthropic.Anthropic()  # picks up ANTHROPIC_API_KEY from env
 
 # ============================================================
 # LOAD DATA
 # ============================================================
 
-columbus_rest = pd.read_csv("/vscode/data/clucknstack_columbus_oh_CS-0142.csv")
+columbus_rest = pd.read_csv("/Users/mariahfrancis/vscode/data/clucknstack_columbus_oh_CS-0142.csv")
 columbus_rest["store"] = "Columbus, OH"
 
-austin_rest = pd.read_csv("/vscode/data/clucknstack_austin_tx_CS-0317.csv")
+austin_rest = pd.read_csv("/Users/mariahfrancis/vscode/data/clucknstack_austin_tx_CS-0317.csv")
 austin_rest["store"] = "Austin, TX"
 
 restaurant = pd.concat([columbus_rest, austin_rest], ignore_index=True)
@@ -210,53 +210,53 @@ def build_figure(results):
 # AI RECOMMENDATION HELPERS
 # ============================================================
 
-def get_declining_items(results, slope_threshold=-0.005, top_n=8):
-    """Return the most concerning declining items, ranked by severity (slope * volume)."""
-    declining = [
-        (name, d) for name, d in results.items()
-        if d["slope"] < slope_threshold
-    ]
-    declining.sort(key=lambda x: x[1]["slope"] * max(x[1]["avg_recent"], 1))
-    return declining[:top_n]
+# def get_declining_items(results, slope_threshold=-0.005, top_n=8):
+#     """Return the most concerning declining items, ranked by severity (slope * volume)."""
+#     declining = [
+#         (name, d) for name, d in results.items()
+#         if d["slope"] < slope_threshold
+#     ]
+#     declining.sort(key=lambda x: x[1]["slope"] * max(x[1]["avg_recent"], 1))
+#     return declining[:top_n]
 
-def build_ai_prompt(store_label, declining_items):
-    if not declining_items:
-        return None
+# def build_ai_prompt(store_label, declining_items):
+#     if not declining_items:
+#         return None
 
-    lines = []
-    for name, d in declining_items:
-        lines.append(
-            f"- {name} ({d['category']}): recent avg {d['avg_recent']:.1f} units/day, "
-            f"daily trend slope {d['slope']:.3f}, 30-day forecast total {d['total_pred']:.0f} units"
-        )
-    item_block = "\n".join(lines)
+#     lines = []
+#     for name, d in declining_items:
+#         lines.append(
+#             f"- {name} ({d['category']}): recent avg {d['avg_recent']:.1f} units/day, "
+#             f"daily trend slope {d['slope']:.3f}, 30-day forecast total {d['total_pred']:.0f} units"
+#         )
+#     item_block = "\n".join(lines)
 
-    prompt = f"""You are a restaurant operations analyst for a fast-casual chicken chain called Cluck N Stack.
+#     prompt = f"""You are a restaurant operations analyst for a fast-casual chicken chain called Cluck N Stack.
 
-Store/site in view: {store_label}
+# Store/site in view: {store_label}
 
-The following menu items show a declining sales trend based on a linear regression of daily units sold:
+# The following menu items show a declining sales trend based on a linear regression of daily units sold:
 
-{item_block}
+# {item_block}
 
-For each item, give a short, concrete recommendation (1-2 sentences) for how the store could respond to the decline (e.g., promotion ideas, bundling, pricing, menu placement, possible quality/ops issues to investigate, seasonality considerations). Then add a brief 2-3 sentence overall summary of the biggest risk and the single highest-priority action.
+# For each item, give a short, concrete recommendation (1-2 sentences) for how the store could respond to the decline (e.g., promotion ideas, bundling, pricing, menu placement, possible quality/ops issues to investigate, seasonality considerations). Then add a brief 2-3 sentence overall summary of the biggest risk and the single highest-priority action.
 
-Format your response in markdown with a header per item (use the item name as a bolded line) followed by the recommendation, and end with an "### Overall Summary" section. Keep the entire response concise and skimmable for a busy store manager."""
-    return prompt
+# Format your response in markdown with a header per item (use the item name as a bolded line) followed by the recommendation, and end with an "### Overall Summary" section. Keep the entire response concise and skimmable for a busy store manager."""
+#     return prompt
 
-def call_ai_for_recommendations(store_label, declining_items):
-    prompt = build_ai_prompt(store_label, declining_items)
-    if prompt is None:
-        return "No items are currently showing a meaningful declining trend for this selection. 🎉"
+# def call_ai_for_recommendations(store_label, declining_items):
+#     prompt = build_ai_prompt(store_label, declining_items)
+#     if prompt is None:
+#         return "No items are currently showing a meaningful declining trend for this selection. 🎉"
 
-    message = ai_client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=900,
-        messages=[{"role": "user", "content": prompt}],
-    )
+#     message = ai_client.messages.create(
+#         model="claude-sonnet-4-6",
+#         max_tokens=900,
+#         messages=[{"role": "user", "content": prompt}],
+#     )
 
-    text_parts = [block.text for block in message.content if block.type == "text"]
-    return "\n".join(text_parts) if text_parts else "The AI did not return a response. Please try again."
+#     text_parts = [block.text for block in message.content if block.type == "text"]
+#     return "\n".join(text_parts) if text_parts else "The AI did not return a response. Please try again."
 
 # ============================================================
 # CHANNEL PREDICTION MODEL (RandomForestClassifier)
@@ -520,36 +520,36 @@ app.layout = html.Div(
                     ]
                 ),
 
-                dcc.Tab(
-                    label="AI Insights", value="tab-ai",
-                    className="tab", selected_className="tab--selected",
-                    children=[
-                        html.Div(className="tab-content", children=[
-                            html.Div(className="card mb-16", children=[
-                                html.Div("Declining Item Recommendations", className="card-title"),
-                                html.Div(
-                                    "Uses the store filter from the Forecast tab. Click below to have "
-                                    "AI review items with a declining sales trend and suggest actions.",
-                                    className="card-body"
-                                ),
-                                html.Button(
-                                    "Generate Recommendations",
-                                    id="ai-generate-btn",
-                                    n_clicks=0,
-                                    style={"marginTop": "12px"}
-                                ),
-                            ]),
-                            dcc.Loading(
-                                type="circle",
-                                children=html.Div(
-                                    id="ai-recommendations-output",
-                                    className="card",
-                                    style={"whiteSpace": "normal"}
-                                )
-                            )
-                        ])
-                    ]
-                ),
+                # dcc.Tab(
+                #     label="AI Insights", value="tab-ai",
+                #     className="tab", selected_className="tab--selected",
+                #     children=[
+                #         html.Div(className="tab-content", children=[
+                #             html.Div(className="card mb-16", children=[
+                #                 html.Div("Declining Item Recommendations", className="card-title"),
+                #                 html.Div(
+                #                     "Uses the store filter from the Forecast tab. Click below to have "
+                #                     "AI review items with a declining sales trend and suggest actions.",
+                #                     className="card-body"
+                #                 ),
+                #                 html.Button(
+                #                     "Generate Recommendations",
+                #                     id="ai-generate-btn",
+                #                     n_clicks=0,
+                #                     style={"marginTop": "12px"}
+                #                 ),
+                #             ]),
+                #             dcc.Loading(
+                #                 type="circle",
+                #                 children=html.Div(
+                #                     id="ai-recommendations-output",
+                #                     className="card",
+                #                     style={"whiteSpace": "normal"}
+                #                 )
+                #             )
+                #         ])
+                #     ]
+                # ),
 
                 dcc.Tab(
                     label="Operations", value="tab-ops",
@@ -686,32 +686,32 @@ def update_forecast(store_value):
     return fig
 
 
-@app.callback(
-    Output("ai-recommendations-output", "children"),
-    Input("ai-generate-btn", "n_clicks"),
-    State("store-dropdown", "value"),
-    prevent_initial_call=True
-)
-def generate_ai_recommendations(n_clicks, store_value):
-    if store_value == "ALL":
-        df = restaurant
-        store_label = "All Stores"
-    else:
-        df = restaurant[restaurant["store"] == store_value]
-        store_label = store_value
+# @app.callback(
+#     Output("ai-recommendations-output", "children"),
+#     Input("ai-generate-btn", "n_clicks"),
+#     State("store-dropdown", "value"),
+#     prevent_initial_call=True
+# )
+# def generate_ai_recommendations(n_clicks, store_value):
+#     if store_value == "ALL":
+#         df = restaurant
+#         store_label = "All Stores"
+#     else:
+#         df = restaurant[restaurant["store"] == store_value]
+#         store_label = store_value
 
-    results = build_forecast_results(df)
-    declining_items = get_declining_items(results)
+#     results = build_forecast_results(df)
+#     declining_items = get_declining_items(results)
 
-    try:
-        ai_text = call_ai_for_recommendations(store_label, declining_items)
-    except Exception as e:
-        return html.Div([
-            html.Div("Something went wrong calling the AI service.", className="card-title"),
-            html.Pre(str(e))
-        ])
+#     try:
+#         ai_text = call_ai_for_recommendations(store_label, declining_items)
+#     except Exception as e:
+#         return html.Div([
+#             html.Div("Something went wrong calling the AI service.", className="card-title"),
+#             html.Pre(str(e))
+#         ])
 
-    return dcc.Markdown(ai_text)
+#     return dcc.Markdown(ai_text)
 
 
 @app.callback(
