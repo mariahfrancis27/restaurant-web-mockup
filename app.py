@@ -487,7 +487,7 @@ app.layout = html.Div(
         html.Div(
             className="app-header",
             children=[
-                html.Img(src="burger.jpg"),
+               html.Img(src=app.get_asset_url("burger.jpg")),
                 html.Div(children=[
                     html.Div("CLUCK N STACK", className="app-title"),
                     html.Div("ANALYTICS PORTAL", className="app-title2"),
